@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,49 +11,53 @@
     />
     <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>PlantStop: Your one-stop shop for all things green!</title>
+    <title>PlantStop: Seu balcão único para todas as coisas verdes!</title>
   </head>
   <body>
     <header class="container header">
       <img
         class="header__image"
         src="./assets/img/logo.png"
-        alt="The leaf of a plant with the words PlantStop, an e-commerce of buying plants"
+        alt="A folha de uma planta com as palavras PlantStop, um e-commerce de compra de plantas"
       />
 
       <nav class="header__navbar">
         <ul class="header__navbar__list">
           <li class="header__navbar__list__item">
-            <a href="#">Shop Plants</a>
+            <a href="#">Comprar plantas</a>
           </li>
-          <li class="header__navbar__list__item"><a href="#">About Us</a></li>
-          <li class="header__navbar__list__item"><a href="#">Contact</a></li>
+          <li class="header__navbar__list__item"><a href="#about">Sobre</a></li>
+          <li class="header__navbar__list__item">
+            <a href="#contact">Contato</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <aside class="container ad">
-      <p class="ad__text">New Species of Philodendron Plants Now Available!</p>
-      <a class="ad__text ad__link" href="#">Learn More</a>
+      <p class="ad__text">
+        Novas espécies de plantas filodendros já disponíveis!
+      </p>
+      <a class="ad__text ad__link" href="#">Saber mais</a>
     </aside>
 
     <main class="container main">
       <img
         class="main__image"
         src="./assets/img/bonsai.png"
-        alt="A tiny three in a pot"
+        alt="Um pequeno três em uma panela"
       />
       <div class="main__info">
         <p class="main__text">
-          Your one-stop shop for all things <span>green</span>!
+          Seu balcão único para todas as coisas <span>verde</span>!
         </p>
-        <a class="main__text main__link" href="#">See Available Plants</a>
+        <a class="main__text main__link" href="#">Veja Plantas Disponíveis</a>
       </div>
     </main>
 
-    <section class="container about">
+    <section class="container about" id="about">
       <div class="about__info">
-        <h2 class="about__title">Who are we?</h2>
+        <h2 class="about__title">Quem somos nós?</h2>
         <p class="about__text">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda
           maiores nesciunt inventore earum, nihil tempora, dolorem magni ex modi
@@ -67,48 +71,48 @@
       <img
         class="about__image"
         src="./assets/img/client.png"
-        alt="A blonde, white woman holding a plant"
+        alt="Uma mulher loira e branca segurando uma planta"
       />
     </section>
 
     <section class="container selled">
-      <h2 class="selled__title">Best Sellers</h2>
+      <h2 class="selled__title">Mais vendidos</h2>
       <ul class="selled__list">
         <li class="selled__list__item">
           <img
             src="./assets/img/plant01.png"
-            alt="A Peace Lily it's a green tall plant in a white pot with with flowers"
+            alt="Um Lírio da Paz é uma planta verde alta em um vaso branco com flores"
           />
-          <span>Peace Lily</span>
+          <span>Lírio da paz</span>
         </li>
         <li class="selled__list__item">
           <img
             src="./assets/img/plant02.png"
-            alt="Prayer Plants feature unique foliage with feathered, painterly-like veins"
+            alt="As plantas de oração apresentam folhagem única com veias emplumadas semelhantes a pinturas"
           />
-          <span>Prayer Plant</span>
+          <span>Planta de Oração</span>
         </li>
         <li class="selled__list__item">
           <img
             src="./assets/img/plant03.png"
-            alt="It is an evergreen perennial plant forming dense strands, spreading by way of its creeping rhizome, which is sometimes above ground, sometimes underground"
+            alt="É uma planta perene, perene, formando filamentos densos, espalhando-se por meio de seu rizoma rasteiro, ora acima do solo, ora subterrâneo."
           />
-          <span>Snake Plant</span>
+          <span>Planta Cobra</span>
         </li>
         <li class="selled__list__item">
           <img
             src="./assets/img/plant04.png"
-            alt="Tubular shaped flowers with pointed tips produce a long, finger-like spadix at the center. Blooms come in colors of white, yellow, orange, pink, red, purple, green, or black"
+            alt="Flores de formato tubular com pontas pontiagudas produzem um espádice longo em forma de dedo no centro. As flores vêm nas cores branco, amarelo, laranja, rosa, vermelho, roxo, verde ou preto"
           />
-          <span>Calla Lily</span>
+          <span>Calla Lírio</span>
         </li>
       </ul>
     </section>
 
-    <section class="container contact">
+    <section class="container contact" id="contact">
       <div class="contact__info">
         <div class="contact__info__header">
-          <h2 class="contact__info__header__title">Contact Us</h2>
+          <h2 class="contact__info__header__title">Contato</h2>
           <div class="contact__info__header__icons">
             <a class="contact__info__header__icon" href="#"
               ><img
@@ -132,7 +136,7 @@
         </div>
         <form class="contact__form">
           <label for="name"
-            >Name
+            >Nome
             <input type="text" id="name" name="name" required />
           </label>
 
@@ -142,22 +146,22 @@
           </label>
 
           <label for="message"
-            >Message
+            >Mensagem
             <textarea id="message" name="message" required></textarea>
           </label>
 
-          <input type="submit" value="Submit" />
+          <input type="submit" value="Enviar" />
         </form>
       </div>
       <img
         class="contact__image"
         src="./assets/img/plant-contact.png"
-        alt="A hand holding a pot with a green plant"
+        alt="Uma mão segurando um vaso com uma planta verde"
       />
     </section>
 
     <footer class="footer">
-      <p>Copyright PlantStop© 2023</p>
+      <p>Direitos autorais PlantStop© 2024</p>
     </footer>
   </body>
 </html>

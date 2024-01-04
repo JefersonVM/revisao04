@@ -110,6 +110,10 @@ body {
   font-size: 3rem;
 }
 
+.main__text span {
+  color: var(--green);
+}
+
 .main__link {
   background-color: var(--green);
   color: var(--white);
